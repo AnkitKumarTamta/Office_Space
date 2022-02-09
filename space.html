@@ -1,0 +1,61 @@
+<html>
+<head>
+    
+    <title>about</title>
+   
+    <link rel="stylesheet" type="text/css" href="css/design.css">
+    </head>
+ <script>
+    var images =["john-salvino-258799-unsplash.jpg","toa-heftiba-644507-unsplash.jpg","joshua-davis-172644-unsplash.jpg","campaign-creators-771731-unsplash.jpg"
+    ];
+    var i=0;
+    function slides(){
+    
+    document.getElementByID('sldimg').src= images[i];}
+    if(i<(images.length-1))
+    {
+                            i++;
+                            else
+                            i=0;
+                            
+    
+    }
+    setInterval(slides,2000)
+        </script>
+<body>
+
+<div class="egimg">
+
+<div class="menu">
+
+<div class="leftmenu"> <h1>The Office.</h1></div>
+
+<div class=rightmenu>
+    
+    <ul>
+        <li><a href="office.html"><span class="change">Home</span></a></li>
+     <li><a href="#">spaces</a></li>
+         <li><a href="member.html">membership</a></li>
+         <li><a href="contact.html">Contact</a></li>
+         <li><a href="about.html">about</a></li>
+    </ul>
+    </div>
+
+</div>
+<div class="space">
+    <h1>SPACES</h1>
+    <p>Variety of spaces available in convinient of customer!</p>
+    </div>
+    <div class="slideshow">
+    
+    <img src="./img/john-salvino-258799-unsplash.jpg" alt="john-salvino-258799-unsplash.jpg" id="sldimg">
+    
+    
+    
+    </div>
+  
+</div>
+   
+</body>
+
+</html>

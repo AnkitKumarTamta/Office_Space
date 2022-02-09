@@ -1,0 +1,225 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.bgimg{
+    background-image:  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../img/studio-republic-644339-unsplash.jpg');
+    background-size: 100% 100%;
+    width:100%;
+    height:100vh;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0,0,0,0.7); 
+}
+.leftmenu{
+    width:25%;
+    line-height:80px;
+    float:left;
+}
+.leftmenu h1{
+    
+    padding-left: 70px;
+    color:#fff;
+    font-family: times new roman;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.rightmenu{
+    width:75%;
+    line-height:80px;
+    float:right;
+}
+.rightmenu ul{
+    margin-left: 300px;}
+
+.rightmenu ul li {
+    font-weight: lighter;
+     font-family: ebrima;
+    display: inline-block;
+    text-transform: uppercase;
+    
+
+    line-height: 80px;
+    
+        
+}
+.rightmenu ul li a{
+    
+        list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 70px;
+}
+.text{
+    width:100%;
+    margin-top:185px;
+    text-transform: uppercase;
+    color:#fff;
+    font-family: ebrima;
+    text-align: center;
+}
+.text h1{
+    font-size: 120px;
+    font-family: times new roman;
+    font-weight: lighter;
+}
+.text h3{
+    font-family: verdana;
+    font-weight: lighter;
+    
+}
+#button{
+    background-color: deepskyblue;
+    color:white;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 50px;
+    width: 120px;
+    margin-top: 30px;
+    border:none;
+    text-transform: uppercase;
+    
+}
+.change{
+    color:deepskyblue;
+}
+.text #button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+
+
+
+
+.agimg{
+    
+    background-image:  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../img/nastuh-abootalebi-284882-unsplash.jpg');
+    background-size: 100% 100%;
+    width:100%;
+    height:100vh;}
+   
+   .text h1 {
+        text-align: center;
+         
+        color:#fff;
+        font-size: 80px;
+    }
+
+.box{
+    width: 500px;
+    height: 170px;
+    background: rgba(255,255,255,0.3);
+    margin: 50px 450px 50px;
+    color:#fff;
+    border-radius: 10px;
+}
+.box p{
+    text-align: center;
+    font-family: ebrima;
+    padding-top:  30px;
+    
+}
+.cgimg{
+    
+    background-image:  linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../img/toa-heftiba-644507-unsplash.jpg');
+    background-size: 100% 100%;
+    width:100%;
+    height:100vh;
+
+}
+.textarea{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 120px;
+    color: white;
+}
+.textarea h1{
+    font-family: times new roman;
+    font-size: 80px;
+    font-weight: bold;
+}
+.textarea p{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 35px;
+}
+.textarea h3{
+    font-family: elephant;
+    font-size: 22px;
+    color:beige;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+.textarea input[type="email"]{
+    padding: 3px;
+    height: 35px;
+    width: 300px;
+    color:white;
+    border: 1px solid white;
+    margin-top: 30px;
+background-color: transparent;}
+.button{
+     padding: 3px;
+    height: 35px;
+    width: 300px;
+    text-align: center;
+    background-color: deepskyblue;
+    color:white;
+    margin-top: 5px;
+    border:none;
+}
+
+.dgimg{
+    background-color: white;
+    background-size: 100% 100%;
+   
+    
+}
+
+.dm{
+    display: inline-block;
+    
+}
+.dm .box img{
+    width: 200px;
+    height: 200px;
+     display: inline-block;
+}
+.me{
+    margin-top: 100px;}
+.egimg{
+    background-color: deepskyblue;
+    background-size: 100% 100%;
+    width:100%;
+    height:100vh;
+}
+
+.space{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+.space h1{
+    font-size: 70px;
+}
+.space p{
+font-size: 20px;
+}
+.slideshow{
+    width: 60%;
+    height: 300px;
+    display: inline-block;
+    margin-top: 20px;
+}
+#sldimg{
+    margin: 5px 270px;
+    width: 100%;
+    height: 340px;
+    
+}
+
